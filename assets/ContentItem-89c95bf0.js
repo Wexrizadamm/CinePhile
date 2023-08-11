@@ -1,0 +1,2 @@
+import{e as a,q as s,a as c,i,w as l,s as r,g as e,f as _,y as m,t as u}from"./index-22adb7ce.js";const y={alt:""},f={__name:"ContentItem",props:["content","type"],setup(t){return(p,v)=>{const n=a("router-link"),o=s("lazy");return c(),i(n,{class:"content__item",to:`/${t.type}/${t.content.id}`},{default:l(()=>[r(e("img",y,null,512),[[o,_(m)+t.content.poster_path]]),e("span",null,u(t.content.title||t.content.name),1)]),_:1},8,["to"])}}};export{f as _};
+//# sourceMappingURL=ContentItem-89c95bf0.js.map
